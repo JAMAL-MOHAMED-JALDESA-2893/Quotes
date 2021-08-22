@@ -1,1 +1,10 @@
+<h6 class="card-subtitle mb-2 text-muted"> Author: {{quote.author}}<span id="when">Posted: {{quote.datePosted  }} days ago.</span> </h6>
+<div class="container" id="buttons">
+  <span class="btn btn-sm btn-success" (click)="upvote()">{{quote.likes}} <i class="bi bi-arrow-up-square" id="like"></i></span>
+  <br>
+  <span class="btn btn-sm " id="hate" (click)="downvote()" >{{quote.dislike}} <i class="bi bi-arrow-down-square" id="dislike"></i></span>
+  <br>
+  <span class="btn btn-sm btn-danger" id="del" (click)='deleteQuote(true)'><i class="bi bi-trash2"></i></span>
+  <br>
+</div>
 
