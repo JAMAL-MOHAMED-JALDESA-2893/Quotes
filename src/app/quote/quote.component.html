@@ -1,1 +1,32 @@
+<div >
+  <div class="container">
+  <h1>Beautiful Life Quotes</h1>
+  <hr>
+  <hr>
+  <hr>
+  <br><br>
+  <div class="row">
+    <div class="col-sm-12 ">
+      <div class="d-flex cards">
+        <div *ngFor='let quote of quotes;let i=index' class="card mt-2">
+          <div class="card-body">
+            <p class="card-text">{{quote.quote}}</p>
+          </div>
+          <span class="card-subtitle mb-2">Posted by: <span id="name">{{quote.user}}</span><span id="date"><span id="datecolor">{{quote.datePosted|date}}</span></span></span>
+           <div>
+             <app-quote-details  [quote]='quote' (isRead)='quoteDelete($event,i)'></app-quote-details>
+         </div>
+        </div>
+      </div>
+     
+    </div>
+    <div class="col-md-12">
+     <app-quote-form (addNew)="addNewQuote($event)"></app-quote-form>
+    </div>
+
+</div>
+</div>
+
+</div>
+
 
