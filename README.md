@@ -1,6 +1,6 @@
 # Qoute
 
-## Auothor
+## Author
 
 **Jamal Hassan Mohamed**
 
