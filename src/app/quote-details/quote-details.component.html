@@ -1,4 +1,4 @@
-<h6 class="card-subtitle mb-2 text-muted"> Author: {{quote.author}}<span id="when">Posted: {{quote.datePosted  }} days ago.</span> </h6>
+<h6 class="card-subtitle mb-2 text-muted"> Author: {{quote.author}}<span id="when">Posted: {{quote.datePosted | dateCount }} days ago.</span> </h6>
 <div class="container" id="buttons">
   <span class="btn btn-sm btn-success" (click)="upvote()">{{quote.likes}} <i class="bi bi-arrow-up-square" id="like"></i></span>
   <br>
