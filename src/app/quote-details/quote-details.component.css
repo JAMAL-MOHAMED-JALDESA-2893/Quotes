@@ -14,3 +14,19 @@
   font-size: 16px;
 
 }
+.hate{
+  margin-left: 10px;
+  background-color: brown;
+  color: white;
+}
+hr{
+  background-color: darkcyan;
+}
+#buttons{
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+#when{
+  float:right;
+  font-family: 'Handlee', cursive;
+}
