@@ -11,7 +11,7 @@ export class QuoteComponent implements OnInit {
   title = 'Quotes';
 
   quotes: Quote[] = [
-    new Quote(1, 'The way i see it, if you want the rainbow, you gotta put up with rain  ',
+    new Quote(1, ' if you want the rainbow, you gotta put up with rain  ',
     'Dolly Parton', 'Jamal',
     new Date(2021, 7, 20), 0, 0),
     new Quote(2, 'The purpose of our life is to be happy daily', 'Dallai Lama', 'Stoogy',
